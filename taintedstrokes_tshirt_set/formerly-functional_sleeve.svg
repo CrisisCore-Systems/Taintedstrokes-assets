@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><style>
+.bone{stroke:#F0EDEB;fill:none;stroke-linecap:round}
+.cyan{stroke:#00E5FF;fill:none}
+.magenta{stroke:#FF2EF7;fill:none}
+.concrete{stroke:#7C7A75;fill:none;opacity:.8}
+</style></defs>
+<rect x="90" y="90" width="1420" height="720" rx="24" class="bone" stroke-width="14"/>
+<!-- Checklist items -->
+<g transform="translate(0,0)"><rect x="170" y="180" width="90" height="90" rx="12" class="bone" stroke-width="14"/><path d="M 188 230 L 214 258 L 262 198" class="cyan" stroke-width="16"/><line x1="290" y1="218" x2="1090" y2="218" class="concrete" stroke-width="12"/><line x1="290" y1="258" x2="890" y2="258" class="concrete" stroke-width="12"/></g><g transform="translate(0,200)"><rect x="170" y="180" width="90" height="90" rx="12" class="bone" stroke-width="14"/><path d="M 188 230 L 214 258 L 262 198" class="cyan" stroke-width="16"/><line x1="290" y1="218" x2="1090" y2="218" class="concrete" stroke-width="12"/><line x1="290" y1="258" x2="890" y2="258" class="concrete" stroke-width="12"/></g><g transform="translate(0,400)"><rect x="170" y="180" width="90" height="90" rx="12" class="bone" stroke-width="14"/><path d="M 188 230 L 214 258 L 262 198" class="cyan" stroke-width="16"/><line x1="290" y1="218" x2="1090" y2="218" class="concrete" stroke-width="12"/><line x1="290" y1="258" x2="890" y2="258" class="concrete" stroke-width="12"/></g>
+<!-- APPROVED stamp -->
+<g transform="translate(880,270) rotate(-14)">
+  <rect x="-420" y="-120" width="840" height="240" class="magenta" stroke-width="22" fill="none"/>
+  <text x="0" y="30" fill="#FF2EF7" font-size="150" font-family="Impact, Haettenschweiler, Arial Black, sans-serif" text-anchor="middle" letter-spacing="6">APPROVED</text>
+</g>
+<!-- copper drop -->
+<path d="M 1430 640 C 1460 570, 1510 590, 1490 650 C 1470 700, 1410 690, 1430 640 Z" fill="#B87333"/>
+</svg>

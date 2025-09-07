@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4500" height="5400" viewBox="0 0 4500 5400">
+<defs><style>
+.bone{stroke:#F0EDEB;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.cyan{stroke:#00E5FF;fill:none}
+.magenta{stroke:#FF2EF7;fill:none}
+.concrete{stroke:#7C7A75;fill:none;opacity:.8}
+</style></defs>
+<g>
+  <!-- House -->
+  <path d="M 1100 2600 L 2250 1500 L 3400 2600 L 3400 3600 L 1100 3600 Z" class="bone" stroke-width="28" fill="none"/>
+  <!-- Door -->
+  <rect x="2060" y="2720" width="380" height="880" rx="60" class="bone" stroke-width="22" fill="none"/>
+  <circle cx="2250" cy="3140" r="54" fill="#F0EDEB"/>
+  <rect x="2226" y="3140" width="48" height="110" rx="24" fill="#F0EDEB"/>
+  <!-- Clipboard -->
+  <rect x="1750" y="2400" width="1000" height="1400" rx="28" class="concrete" stroke-width="20" fill="none"/>
+  <rect x="2170" y="2320" width="320" height="120" rx="50" fill="#7C7A75"/>
+  <!-- Waves -->
+  <path d="M 1600 3000 C 1800 2960, 2000 3040, 2200 3000 C 2400 2960, 2600 3040, 2800 3000 C 3000 2960, 3200 3040, 3400 3000" class="cyan" stroke-width="16" fill="none"/>
+  <path d="M 1600 3110 C 1800 3070, 2000 3150, 2200 3110 C 2400 3070, 2600 3150, 2800 3110 C 3000 3070, 3200 3150, 3400 3110" class="cyan" stroke-width="14" fill="none"/>
+  <path d="M 1600 3220 C 1800 3180, 2000 3260, 2200 3220 C 2400 3180, 2600 3260, 2800 3220 C 3000 3180, 3200 3260, 3400 3220" class="cyan" stroke-width="12" fill="none"/>
+  <!-- Crack -->
+  <polyline points="1350,2100 1430,2280 1270,2380 1490,2520 1410,2700 1690,2840 1530,3000 1770,3180 1730,3360 1990,3520 1910,3680" class="magenta" stroke-width="18" fill="none"/>
+  <!-- Copper bells -->
+  <circle cx="2060" cy="2720" r="18" fill="#B87333"/>
+  <circle cx="2440" cy="2720" r="18" fill="#B87333"/>
+</g>
+</svg>
